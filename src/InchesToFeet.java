@@ -13,7 +13,7 @@ public class InchesToFeet {
 
         numberofFeet = userEntryInches / inchesInFeet;
 
-       int inchesRemaning = numberofFeet % userEntryInches;
+       int inchesRemaning = userEntryInches % 12;
 
        System.out.println("You have " + numberofFeet + " Feet and " + inchesRemaning + " inches." );
 
